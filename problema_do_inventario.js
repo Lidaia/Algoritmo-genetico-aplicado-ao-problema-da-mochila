@@ -369,7 +369,7 @@ while (activiedQtd < 5) {
 
     console.log("Nessa situação, os itens que deverão ser mantidos no inventario são\n")
     for (let i = 0; i < solutionOptima.length; i++) {
-        if (solutionOptima[i] == 1) console.log(`${ITENS[i]}  --->Peso ${PESO[i]} ocupando ${PESO[i]*QUANTIDADE[i]} no inventario`)             
+        if (solutionOptima[i] == 1) console.log(`${ITENS[i]}  ---> Peso ${PESO[i]} ocupando ${PESO[i]*QUANTIDADE[i]} no inventario`)             
     }  
 
     activiedQtd = solutionOptima.reduce((val1, val2) => val1 + val2);
