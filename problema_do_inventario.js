@@ -374,8 +374,8 @@ while (activiedQtd < 5) {
 
     activiedQtd = solutionOptima.reduce((val1, val2) => val1 + val2);
     masterIncubente = incubente[2];
-    console.log(`Em ${incubente[2]} de capacidade`);
+    console.log(`Usando ${incubente[2]} de capacidade do inventario com itens de armadura`);
     initialSolutions = newGeneration;
-
+    console.log(`Sobrando ${160-incubente[2]} de capacidade para demais itens`);
     solutionOptima = [];    
 }
