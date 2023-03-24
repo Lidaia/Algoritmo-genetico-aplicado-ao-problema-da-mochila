@@ -1,2 +1,3 @@
-# Trabalho-PAA2-Certo
-Trabalho para a materia de projeto e analise de algoritmos 2 no semestre 2022/1
+# Algoritmo genetico aplicado ao problema da mochila
+O algoritmo genetico é usado para saber qual é a melhor forma de utilizar a capacidade da melhor forma, colocado em pratica ao selecionar quais itens devem ser colocados
+no inventario, usando os pesos de acordo com os itens do jogo the witcher 3.
